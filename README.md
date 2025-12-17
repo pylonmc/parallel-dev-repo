@@ -7,6 +7,6 @@ pylon-base and pylon-core are each their own Git repository. Therefore, any chan
 For the purposes of explanation, "snapshot" refers to the latest, local development 
 version of Base and Core, while "stable" refers to the latest release.
 
-- `./gradlew runSnapshotServer` starts a server with snapshot versions of Base and Core.
-- `./gradlew runStableServer` starts a server with snapshot Base and stable Core.
-- `./gradlew runLiveTests` runs the live tests against a server with snapshot Core.
+- `./gradlew runServer` starts a server with your local versions of Base and Core.
+- `./gradlew runStableServer` starts a server with your local version of Base and the latest release of Core.
+- `./gradlew runLiveTests` runs your local version of Pylon Core's tests on a server with your local version of Core.

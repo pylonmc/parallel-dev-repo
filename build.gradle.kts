@@ -1,7 +1,7 @@
 import java.util.*
 
 plugins {
-    id("xyz.jpenilla.run-paper") version "2.3.1"
+    id("xyz.jpenilla.run-paper") version "3.0.2"
 }
 
 val pylonBuild = gradle.includedBuild("pylon")

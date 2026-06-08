@@ -35,7 +35,7 @@ tasks.runServer {
         }
     }
 
-    maxHeapSize = "4G"
+    maxHeapSize = "2G"
 
     fun readMinecraftVersion(build: IncludedBuild): String {
         val props = Properties()
